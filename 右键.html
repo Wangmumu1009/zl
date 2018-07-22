@@ -40,11 +40,27 @@
 </ul>
 <script>
     var oMenu = document.getElementById('menu');
-    var aLi = document.getElementsByTagName('li')
+    var aLi = document.getElementsByTagName('li');
+
     document.oncontextmenu = function(e){
-        oMenu.style.top = e.clientY+'px';
-        oMenu.style.left = e.clientX+'px';
+        /*oMenu.style.top = e.clientY+'px';
+        oMenu.style.left = e.clientX+'px';*/
         oMenu.style.display = 'block';
+        var dw = document.documentElement.offsetWidth;//得到界面最大宽度
+        var dh = document.documentElement.offsetHeight;
+        var mw = oMenu.offsetWidth;//得到窗口最大宽
+        var mh = oMenu.offsetHeight;
+        if(e.clienX > dw-mw){
+            oMenu.style.left = (e.clientX - mw) + 'px';
+        }else{
+            oMenu.style.left = e.clientX + 'px';
+        }
+
+        if(e.clientY > dh - mh){
+            oMenu.style.top = (e.clientY - mh) + 'px';
+        }else {
+            oMenu.style.top = e.clientY + 'px';
+        }
         return false;
     }
     document.onclick = function () {
