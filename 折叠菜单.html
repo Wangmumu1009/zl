@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>折叠菜单</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #menu{
+            width: 200px;
+            margin: 100px auto;
+            border: 1px solid #000000;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        #menu > li{
+            text-align: center;
+        }
+        #menu a{
+            display: block;
+            background: #000000;
+            color: #ffffff;
+            width: 100%;
+        }
+        #menu .sub-menu{
+            display: none;
+        }
+        #menu .sub-menu li{
+            height: 22px;
+            text-align: center;
+            line-height: 22px;
+        }
+
+    </style>
+</head>
+<body>
+<ul id = "menu">
+    <li>
+        <a href="">管理区</a>
+        <ul class="sub-menu">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+    </li>
+    <li>
+        <a href="">交流区</a>
+        <ul class="sub-menu">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+        </ul>
+    </li>
+</ul>
+<script>
+    var aA = document.getElementsByTagName('a');
+    var aSubMenu = document.getElementsByClassName('sub-menu');
+    for(i=0;i<aA.length;i++){
+        aA[i].xx=i;
+        aA[i].onclick = function (){
+
+            if(getStyle(aSubMenu[this.xx],'display')=='none'){
+                aSubMenu[this.xx].style.display='block';
+            }else{
+                aSubMenu[this.xx].style.display='none';
+            }
+
+            return false;
+        }
+
+    }
+
+    function getStyle(elem,prop){
+         if(elem.currentStyle){
+             return elem.currentStyle[prop];
+        }else{
+            return getComputedStyle(elem,false)[prop];
+        }
+
+    }
+</script>
+</body>
+</html>
