@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作业</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #contain{
+            width: 400px;
+            margin: 100px auto;
+        }
+        li{
+            list-style: none;
+        }
+        #contain li{
+            float: left;
+            text-align: center;
+            width: 120px;
+            height: 30px;
+            line-height: 30px;
+            background: antiquewhite;
+            margin-right: 40px;
+            color: indianred;
+        }
+       #contain ul{
+            height: 30px;
+        }
+        #contain div{
+            position: absolute;
+            width: 400px;
+            height: 270px;
+            background: #cccccc;
+            border-top: 1px solid crimson;
+            display: none;
+        }
+        #contain li.select{
+            background: #000000;
+            color:red;
+        }
+        #contain div.show{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="contain">
+        <ul>
+            <li class="select">111</li>
+            <li>222</li>
+        </ul>
+        <div class="show">picture1</div>
+        <div>picture2</div>
+    </div>
+    <script>
+        var aLi = document.getElementsByTagName('li');
+        var oContain = document.getElementById('contain');
+        var oDiv = oContain.getElementsByTagName('div');
+        for(var i=0;i<aLi.length;i++){
+            aLi[i].index=i;
+            aLi[i].onmousemove = function () {
+                for(var j=0;j<aLi.length;j++){
+                    aLi[j].className='';
+                    oDiv[j].className='';
+                }
+                this.className='select';
+                oDiv[this.index].className='show';
+
+
+            }
+
+        }
+
+
+
+    </script>
+</body>
+</html>
