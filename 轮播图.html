@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+    <style>
+        *{
+            padding: 0;
+            margin : 0;
+        }
+        li{
+            list-style: none;
+        }
+        #contain{
+            width: 520px;
+            height: 280px;
+            margin: 100px auto;
+            position: relative;
+        }
+        #contain .imgs img{
+            position: absolute;
+            display: none;
+        }
+        #contain .imgs img.select{
+            display: block;
+        }
+        #contain .nav{
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+        #contain .arrow{
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+        }
+        #contain .nav li,.arrow span{
+            float: left;
+            width: 20px;
+            height: 20px;
+            background: black;
+            text-align: center;
+            color: indianred;
+            line-height: 20px;
+            margin-right: 10px;
+        }
+        #contain .nav li.select{
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+    <div id="contain">
+       <div class="imgs">
+            <img class="select" src="1.jpg" alt="">
+            <img src="2.jpg" alt="">
+            <img src="3.jpg" alt="">
+            <img src="4.jpg" alt="">
+       </div>
+        <ul class="nav">
+            <li class="select">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+        <div class="arrow">
+            <span id="prev"> < </span>
+            <span id="next"> > </span>
+        </div>
+    </div>
+<script>
+    var aLi = document.getElementsByTagName('li');
+    var aImg = document.getElementsByTagName('img');
+    var oContain = document.getElementById('contain');
+    var oPrev = document.getElementById('prev');
+    var oNext = document.getElementById('next');
+    var nowIndex = 0;
+    for(var i=0;i<aLi.length;i++){
+        aLi[i].index = i;
+        aLi[i].onmouseover = function () {
+            nowIndex = this.index;
+            changeImg(this.index)
+        }
+    }
+
+    oNext.onclick = function () {
+        nowIndex++;
+        if(nowIndex==aLi.length){
+            nowIndex=0;
+        }
+        changeImg(nowIndex);
+    }
+    oPrev.onclick = function () {
+        nowIndex--;
+        if (nowIndex==-1){
+            nowIndex = aLi.length-1;
+        }
+        changeImg(nowIndex);
+    }
+    function changeImg(index) {
+        for (var j=0;j<aLi.length;j++){
+            aLi[j].className = '';
+            aImg[j].className = '';
+        }
+        aImg[index].className = 'select';
+        aLi[index].className = 'select';
+    }
+
+    oContain.onmouseover = function () {
+        clearInterval(timer);
+    }
+    oContain.onmouseout = function () {
+        play();
+    }
+    play();
+
+    function play() {
+        timer = setInterval(function () {
+            oNext.onclick();
+        },1000)
+
+    }
+
+
+</script>
+</body>
+</html>
