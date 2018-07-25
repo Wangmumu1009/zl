@@ -15,7 +15,7 @@
             width: 320px;
             height: 200px;
             border: 1px solid cadetblue;
-            overflow: hidden;
+            /*overflow: hidden;*/
             margin: 100px auto;
             position: relative;
         }
@@ -54,6 +54,10 @@
             <li>2</li>
             <li>3</li>
             <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
         </ul>
         <div class="div1">
             <span id="left">向左</span>
@@ -64,9 +68,9 @@
         var aUl = document.getElementsByClassName('ul1');
         var oLeft = document.getElementById('left');
         var oRight = document.getElementById('right');
-        aUl[0].innerHTML += aUl[0].innerHTML;
+        // aUl[0].innerHTML += aUl[0].innerHTML;
         aUl[0].style.width = aUl[0].offsetWidth * 2 + 'px';
-        var speed = -2;
+        var speed = -20;
         setInterval(function () {
             var ileft = aUl[0].offsetLeft;
             aUl[0].style.left = ileft + speed + 'px';
