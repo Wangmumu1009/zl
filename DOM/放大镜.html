@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>放大镜</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #small,#big{
+            width: 400px;
+            height: 400px;
+            float: left;
+            position: relative;
+            overflow: hidden;
+            cursor: move;
+        }
+        #big{
+            display: none;
+        }
+        #drag{
+            width: 200px;
+            height: 200px;
+            opacity: .5;
+            background:#cccccc;
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: none;
+        }
+        #big img{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="small">
+            <img src="放大镜1.jpg" alt="">
+            <div id="drag">
+
+            </div>
+        </div>
+        <div id="big">
+            <img src="放大镜2.jpg" alt="">
+        </div>
+    </div>
+    <script>
+        var oSmall = document.getElementById('small');
+        var oBig = document.getElementById('big');
+        var oDrag = document.getElementById('drag');
+        var oBigImg = oBig.getElementsByTagName('img')[0];
+
+
+        oSmall.onmouseover = function () {
+            oDrag.style.display = 'block';
+            oBig.style.display = 'block';
+            oSmall.onmousemove = function (e) {
+                e = e || window.event;
+
+                var disX = e.clientX - oDrag.offsetWidth / 2;
+                var disY = e.clientY - oDrag.offsetHeight / 2;
+
+                if (disX > oSmall.offsetWidth - oDrag.offsetWidth) {
+                    disX = oSmall.offsetWidth - oDrag.offsetWidth
+                } else if(disX < 0){
+                    disX = 0;
+                }
+
+                if (disY > oSmall.offsetHeight - oDrag.offsetHeight) {
+                    disY = oSmall.offsetHeight - oDrag.offsetHeight
+                } else if(disY < 0){
+                    disY = 0;
+                }
+
+                var xxx = disX / (oSmall.offsetWidth - oDrag.offsetWidth);
+                var bigX = xxx * (oBigImg.offsetWidth - oBig.offsetWidth);
+                var yyy = disY / (oSmall.offsetHeight - oDrag.offsetHeight);
+                var bigY = yyy * (oBigImg.offsetHeight - oBig.offsetHeight);
+
+
+                oBigImg.style.left = -bigX + 'px';
+                oBigImg.style.top = -bigY + 'px';
+                oDrag.style.left = disX + 'px';
+                oDrag.style.top = disY + 'px';
+            }
+
+        }
+
+        oSmall.onmouseout = function () {
+            oDrag.style.display = 'none';
+            oBig.style.display = 'none';
+
+        }
+
+    </script>
+</body>
+</html>
