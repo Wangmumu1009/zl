@@ -16,13 +16,14 @@
             height: 280px;
             margin: 100px auto;
             position: relative;
+            overflow: hidden;
+        }
+        #contain .imgs{
+            position: absolute;
+            width: 2080px;
         }
         #contain .imgs img{
-            position: absolute;
-            display: none;
-        }
-        #contain .imgs img.select{
-            display: block;
+            float: left;
         }
         #contain .nav{
             position: absolute;
@@ -43,32 +44,34 @@
             color: indianred;
             line-height: 20px;
             margin-right: 10px;
-            cursor: move;
+            cursor: pointer;
         }
         #contain .nav li.select{
             background: orange;
         }
+
     </style>
 </head>
 <body>
-    <div id="contain">
-       <div class="imgs">
-            <img class="select" src="1.jpg" alt="">
-            <img src="2.jpg" alt="">
-            <img src="3.jpg" alt="">
-            <img src="4.jpg" alt="">
-       </div>
-        <ul class="nav">
-            <li class="select">1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-        </ul>
-        <div class="arrow">
-            <span id="prev"> < </span>
-            <span id="next"> > </span>
-        </div>
+<div id="contain">
+    <div class="imgs" id="img-container">
+        <img class="select" src="1.jpg" alt="">
+        <img src="../2.jpg" alt="">
+        <img src="../3.jpg" alt="">
+        <img src="../4.jpg" alt="">
     </div>
+    <ul class="nav">
+        <li class="select">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+    <div class="arrow">
+        <span id="prev"> < </span>
+        <span id="next"> > </span>
+    </div>
+</div>
+<script src="../jslib.js"></script>
 <script>
     var aLi = document.getElementsByTagName('li');
     var aImg = document.getElementsByTagName('img');
@@ -76,13 +79,19 @@
     var oPrev = document.getElementById('prev');
     var oNext = document.getElementById('next');
     var nowIndex = 0;
+    var oImgCon = document.getElementById('img-container');
+    for(var i=0;i<aImg.length;i++){
+        aImg[i].style.zIndex = aImg.length - i;
+    }
     for(var i=0;i<aLi.length;i++){
         aLi[i].index = i;
         aLi[i].onmouseover = function () {
             nowIndex = this.index;
             changeImg(this.index)
         }
-
+        aLi[i].onselectstart = function (){
+            return false;
+        }
     }
     oNext.onclick = function () {
         nowIndex++;
@@ -93,7 +102,7 @@
     }
     oPrev.onclick = function () {
         nowIndex--;
-        if (nowIndex==-1){
+        if (nowIndex == -1){
             nowIndex = aLi.length-1;
         }
         changeImg(nowIndex);
@@ -101,10 +110,14 @@
     function changeImg(index) {
         for (var j=0;j<aLi.length;j++){
             aLi[j].className = '';
-            aImg[j].className = '';
+            // aImg[j].className = '';
         }
-        aImg[index].className = 'select';
+        // aImg[index].className = 'select';
         aLi[index].className = 'select';
+        animate(oImgCon,{left:-aImg[0].offsetWidth * index});
+        // aImg[index].style.zIndex = ++zIndex;
+        // aImg[index].style.opacity = 0;
+        // animate(aImg[index],{opacity:100});
     }
     oContain.onmouseover = function () {
         clearInterval(timer);
@@ -112,11 +125,15 @@
     oContain.onmouseout = function () {
         play();
     }
+
+
+    // var fn = function () {
+    //     oNext.onclick();
+    // }
     play();
-    function play() {
-        timer = setInterval(function () {
-            oNext.onclick();
-        },1000)
+
+        function play() {
+        timer = setInterval(fn,1000);
     }
 </script>
 </body>
