@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+
+    #header,#nav,#footer{
+        width: 900px;
+        height: 100px;
+        background: #CCCCCC;
+        text-align: center;
+        line-height: 100px;
+        margin: 30px auto;
+
+    }
+    #banner{
+        width: 960px;
+        margin: 0 auto;
+    }
+    #banner img{
+        width: 100%;
+    }
+    #container{
+        width: 960px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    #left{
+        width: 600px;
+        height: 300px;
+        float: left;
+        background: green;
+        margin-right: 30px;
+    }
+    #right{
+        width: 330px;
+        height: 300px;
+        float: left;
+        background: yellow;
+    }
+    @media (max-width: 960px) {
+        #header,#nav,#footer,#container,#banner{
+            width: 100%;
+        }
+
+        #left{
+            width: 60%;
+            margin-right: 3%;
+        }
+        #right{
+            width: 37%;
+        }
+    }
+    @media (max-width: 560px) {
+
+
+        #left{
+            width: 100%;
+            margin-right: 0;
+        }
+        #right{
+            width: 100%;
+        }
+    }
+</style>
+<body>
+    <div id="header">
+        <h2>页头</h2>
+    </div>
+    <div id="nav">
+         <h2>导航</h2>
+    </div>
+    <div id="banner">
+    <img src="01.jpg" alt="">
+    </div>
+    <div id="container">
+        <div id="left">zxzx cvbccccc ccccccccc cccccnma sdfcccccccccccccghj klqcccccccccccccccwer tyuiopqwertyuiopasdfghjklzxcvbnm</div>
+        <div id="right">zxzxccccccccccccccccccccv bnmasdfghj klqwe rtyuccccccccc iopqwertyui opas dfg hjk lzxc vbnm</div>
+
+    </div>
+    <div id="footer">
+        <h2>页尾</h2>
+    </div>
+</body>
+</html>
