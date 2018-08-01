@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选项卡</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        li{
+            list-style: none;
+        }
+        #contain{
+            width: 400px;
+            margin: 100px auto;
+        }
+        #contain li{
+            float: left;
+            width: 120px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            background: #cccccc;
+            margin-right: 10px;
+            color: #ffffff;
+        }
+        #contain ul{
+            height: 30px;
+        }
+
+        #contain div{
+            width: 400px;
+            height: 270px;
+            background: #ccc;
+            border-top: 1px solid #000;
+            position: absolute;
+            display: none;
+        }
+        #contain li.selected{
+            background: #000000;
+            color:red;
+        }
+        #contain div.show{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<div id="contain">
+    <ul>
+        <li class="selected">111</li>
+        <li>222</li>
+        <li>333</li>
+    </ul>
+    <div class="show">aaa</div>
+    <div>bbb</div>
+    <div>ccc</div>
+
+</div>
+<script src="jquery-1.12.4.js"></script>
+<script>
+    $('li').on('click',function () {
+        $(this).addClass('selected').siblings().removeClass('selected');
+        $('#contain div').eq($(this).index()).addClass('show').siblings().removeClass('show');
+    })
+</script>
+</body>
+</html>
