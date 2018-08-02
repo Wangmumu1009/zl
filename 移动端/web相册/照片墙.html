@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>照片墙</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        img{
+            border: none;
+        }
+        html,body{
+            height: 100%;
+        }
+        #container img{
+            float: left;
+            width: 25%;
+            box-sizing: border-box;
+            border-bottom: 3px solid black;
+            border-right: 3px solid black;
+
+        }
+        #big-img{
+            height: 100%;
+            display: none;
+            background-size: contain;
+            background-color: black;
+            background-position: center;
+            background-repeat: no-repeat;
+           
+        }
+    </style>
+</head>
+<body>
+    <div id="container"> </div>
+    <div id="big-img"></div>
+    <script src="../zepto.js"></script>
+    <script src="../touch.js"></script>
+    <script>
+        $(function () {
+            var str ='';
+            var iNow = 0;
+            for (var i=0;i<24;i++){
+                str += '<img src="img/thumbs/'+(i+1)+'.jpg">'
+            }
+            $('#container').append(str);
+            $('#container').on('tap','img',function () {
+
+                $('#container').hide();
+                iNow = $(this).index();
+                $('#big-img').css('background-image','url(img/'+($(this).index()+1)+'.jpg)')
+                    .show();
+
+            });
+
+            $('#big-img').on('tap',function () {
+                $('#container').show();
+                $('#big-img').hide();
+
+            }).on('swipeLeft',function () {
+
+                iNow++;
+                if(iNow==24){
+                    iNow=0;
+                }
+                $('#big-img').css('background-image','url(img/'+(iNow+1)+'.jpg)');
+            }).on('swipeRight',function () {
+
+                iNow--;
+                if(iNow==-1){
+                    iNow=23;
+                }
+
+                $('#big-img').css('background-image','url(img/'+(iNow+1)+'.jpg)');
+            });
+
+
+
+
+
+
+        })
+
+
+
+    </script>
+</body>
+</html>
