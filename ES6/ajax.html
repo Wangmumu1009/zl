@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax</title>
+</head>
+<body>
+    <script src="jquery-1.12.4.js"></script>
+    <button id="btn">button</button>
+    <ul id="ul1"></ul>
+<script>
+    $('#btn').click(function () {
+
+        $.get('a.json',function (elem,data) {
+            data.subjects.forEach(function(elem){
+
+                var $li = $(`<li>${elem.title}</li>`);
+                $('#ul1').append($li);
+            })
+        },'json');
+    })
+</script>
+</body>
+</html>
