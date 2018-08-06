@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>generator</title>
+</head>
+<body>
+<script src="jquery-1.12.4.js"></script>
+<script>
+    function request(url) {
+        $.get(url,function (res) {
+            console.log(res);
+            // g.next();
+        })
+
+    }
+function* fn() {
+
+    yield request('a.json');
+    yield request('b.json');
+    yield request('c.json');
+    return 0;
+}
+var g = fn ();
+    var a = g.next();
+    var b = g.next();
+    var c = g.next();
+    console.log(a);
+    console.log(b);
+    console.log(c);
+
+
+
+
+
+</script>
+</body>
+</html>
