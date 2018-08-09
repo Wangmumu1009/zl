@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <ul>
+        <!--<li v-for="(val,i) in stuList">-->
+        <!--值，索引-->
+           <!--{{ '学生姓名是：'+val.name}},年龄是：{{val.age}},{{i}}-->
+        <!--</li>-->
+        <!--<li v-for="(v,i) in arr">-->
+        <!--值，索引-->
+            <!--{{v}},{{i}}-->
+        <!--</li>-->
+        <!--<li v-for="(v,k,i) in obj">-->
+            <!--&lt;!&ndash;/*值，键名，键值*/&ndash;&gt;-->
+            <!--{{v}},{{k}},{{i}}-->
+        <!--</li>-->
+        <li v-for="i in 4">
+            {{arr}}
+     </ul>
+ </div>
+
+ <script src="vue.js"></script>
+ <script>
+     var vm = new Vue({
+         el:'#app',
+         data:{
+             msg:'helloworld',
+             arr:[1,2,3],
+             stuList:[{
+                 name:'zs',
+                 age:12
+             },{
+                 name:'xd',
+                 age:23
+             },{
+                 name:'cf',
+                 age:34
+             }],
+             obj:{
+                 a:'i am aa',
+                 b:'i am bb',
+                 c:3
+             }
+         }
+     })
+ </script>
+ </body>
+ </html>
