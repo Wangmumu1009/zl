@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="vue.js"></script>
+
+<div id="app">
+    <template v-if="msg" >
+        <p>i am ppp</p>
+        <h1>i am head</h1>
+    </template>
+
+    <div v-if="msg">
+        i am div1
+    </div>
+    <div v-else>
+        i am else
+    </div>
+
+
+</div>
+<script>
+    var vm = new Vue({
+        el:'#app',
+        data:{
+            msg:false,
+            xx:'z'
+        }
+    });
+
+</script>
+</body>
+</html>
