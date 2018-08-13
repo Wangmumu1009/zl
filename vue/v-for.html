@@ -7,9 +7,9 @@
 <body>
 <div id="app">
     <ul>
-        <!--<li v-for="(val,i) in stuList">-->
+        <li v-for="(val,i) in sortStu">
         <!--值，索引-->
-           <!--{{ '学生姓名是：'+val.name}},年龄是：{{val.age}},{{i}}-->
+           {{ '学生姓名是：'+val.name}},年龄是：{{val.age}},{{i}}
 
 
         <!--</li>-->
@@ -25,8 +25,8 @@
         <!--</li>-->
 
 
-        <li v-for="i in 3">
-            {{arr}}
+        <!--<li v-for="i in 3">-->
+            <!--{{arr}}-->
      </ul>
  </div>
 
@@ -35,11 +35,11 @@
      var vm = new Vue({
          el:'#app',
          data:{
-             msg:'helloworld',
-             arr:[1,2,3],
+             // msg:'helloworld',
+             // arr:[1,2,3],
              stuList:[{
                  name:'zs',
-                 age:12
+                 age:56
              },{
                  name:'xd',
                  age:23
@@ -51,6 +51,14 @@
                  a:'i am aa',
                  b:'i am bb',
                  c:3
+             }
+         },
+         computed:{
+             sortStu(){
+//                console.log(this);
+                 return this.stuList.sort(function(a,b){
+                     return a.age - b.age;
+                 });
              }
          }
      })

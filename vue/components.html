@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <demo xx="123" :yy="abc"></demo>
+    <demo xx="456" :yy="def"></demo>
+    <!--<demo5></demo5>-->
+    <!--<demo2></demo2>-->
+    {{msg}}
+</div>
+<!--<div id="app2">-->
+    <!--<demo2></demo2>-->
+<!--</div>-->
+<script src="vue.js"></script>
+<script>
+    // Vue.component('demo5',{
+    //     template:"<div>didv1 </div>"
+    // })
+    var vm = new Vue({
+        el:'#app',
+        data:{
+            msg:'ss',
+            abc:'haha',
+            def:'heihei'
+        },
+        components:{
+            demo:{
+                template:"<div>{{xx}}<h1>{{yy}}</h1></div>",
+                props:['xx','yy']
+            }
+        }
+    })
+    // new Vue({
+    //        el:'#app2',
+    //        components:{
+    //            demo2:{
+    //                template:"<div>xxx </div>"
+    //            }
+    //        }
+    //    })
+
+
+</script>
+
+</body>
+</html>

@@ -14,9 +14,11 @@
     <input type="text" @keyup="search" v-model="val">
     <button @click="add">add按钮</button>
     <ul>
-        <li v-for="xx in showArr"  :class="{red:xx.active}" @click="xx.active = !xx.active">
+        <li v-for="(xx,index) in showArr"  :class="{red:xx.active}" @click="xx.active = !xx.active">
             {{xx.value}}
+            <button @click="del(index)">del</button>
         </li>
+
     </ul>
 </div>
 <script src="vue.js"></script>
@@ -44,6 +46,10 @@
                 });
                 this.showArr = newArr;
             },
+            del(index){
+                this.arr.splice(index,1)
+            }
+
 
 
         }

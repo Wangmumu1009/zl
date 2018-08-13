@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <demo xx="123" :yy="abc">
+        <p slot="p1">p123</p>
+        <p slot="p2">pp456</p>
+    </demo>
+    <demo xx="456" :yy="def"></demo>
+    {{msg}}
+</div>
+<script type="texe/x-template" id="temp">
+    <div>
+        {{xx}}
+        <h1>{{yy}}</h1>
+        <slot name="p1">
+            <p>morenpp</p>
+        </slot>
+
+        <slot name="p2">
+            <spam>morenspan</spam>
+        </slot>
+
+        <slot></slot>
+    </div>
+
+</script>
+<script src="vue.js"></script>
+<script>
+    var vm = new Vue({
+        el:'#app',
+        data:{
+            msg:'ss',
+            abc:'haha',
+            def:'heihei'
+        },
+        components:{
+            demo:{
+                template:"#temp",
+                props:['xx','yy']
+            }
+        }
+    })
+</script>
+
+</body>
+</html>
