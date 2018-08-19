@@ -19,6 +19,7 @@
             }
         },
         mounted(){
+
             var movieId = this.$route.params.id;
             Axios.get('https://bird.ioliu.cn/v1?url=https://api.douban.com/v2/movie/subject/'+movieId)
                 .then((res)=>{
