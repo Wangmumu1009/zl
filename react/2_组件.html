@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="root">
+
+</div>
+<script src="react.development.js"></script>
+<script src="react-dom.development.js"></script>
+<script src="browser.min.js"></script>
+
+<script type="text/babel">
+    // 无状态组件
+    let Welcome = (xx) =>{
+        return (
+            <div>
+                <h1>{xx.name}</h1>
+                <p>hello {xx.description}</p>
+                <p>{xx.children}</p>
+            </div>
+        );
+    }
+
+
+    ReactDOM.render(
+        <div>
+            <Welcome name="唯创" description="666">123</Welcome>
+            <Welcome name="唯创" description="666">123</Welcome>,
+        </div>
+
+
+        document.getElementById('root')
+    );
+
+
+</script>
+
+
+</body>
+</html>

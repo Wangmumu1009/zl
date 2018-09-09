@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="root">
+
+</div>
+<script src="react.development.js"></script>
+<!--onClick={this.change.bind(this)}-->
+<script src="react-dom.development.js"></script>
+<script src="browser.min.js"></script>
+<script type="text/babel">
+    class Main extends React.Component{
+        constructor(props) {
+            super(props);
+            this.state = {
+                msg: '商品列表'
+            }
+        }
+        change(msg){
+            this.setState({
+                msg:msg
+            })
+        }
+        render(){
+            return (
+                <div>
+                    <h1>{this.state.msg}</h1>
+                    <Product name="TV" myClick={this.change.bind(this)}></Product>
+                    <Product name="Phone"></Product>
+                </div>
+            )
+        }
+    }
+    class Product extends React.Component{
+        constructor(props){
+            super(props);
+
+        }
+        render(){
+            return (
+                <div
+                    onClick={
+                    ()=>{
+                        this.props.myClick('456')
+                        // 或者用 onClick = {this.props.myClick}，但是不能传值
+                    }
+                }
+                >
+
+
+                    <span>{this.props.name}</span>
+
+                </div>
+            )
+        }
+    }
+    ReactDOM.render(
+        <Main></Main>
+        ,
+        document.getElementById('root')
+    )
+</script>
+</body>
+</html>

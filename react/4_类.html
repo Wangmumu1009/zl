@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="root">
+
+</div>
+<script src="react.development.js"></script>
+<script src="react-dom.development.js"></script>
+<script src="browser.min.js"></script>
+
+<script type="text/babel">
+// 有状态组件
+    class Welcome extends React.Component{
+        constructor(props){
+            super(props);
+            this.xx = "zs";
+            console.log(props);
+
+        }
+       render(){
+           return <h1>{this.props.name}  {this.xx}  {this.props.children}</h1>;
+       }
+
+    }
+    ReactDOM.render(
+
+        <Welcome name="wei">123</Welcome>,
+        document.getElementById('root')
+    );
+
+
+
+</script>
+
+
+</body>
+</html>

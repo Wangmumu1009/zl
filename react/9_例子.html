@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="root">
+
+</div>
+<script src="react.development.js"></script>
+<script src="react-dom.development.js"></script>
+<script src="browser.min.js"></script>
+
+<script type="text/babel">
+    class Sum extends React.Component{
+        constructor(props){
+            super(props);
+            this.state={
+                msg:400
+            }
+        }
+        change(msg){
+            this.setState({
+                msg:this.state.msg-10
+            });
+        }
+        changeb(msg){
+            this.setState({
+                msg:this.state.msg-20
+            });
+        }
+
+        render(){
+            return (
+                <div>
+                    <h2>全部士兵数量{this.state.msg}</h2>
+                    <Aa name="将军A有士兵：" myClick={this.change.bind(this)}></Aa>
+                    <Bb name="将军B有士兵：" myClick={this.changeb.bind(this)}></Bb>
+
+                </div>
+            )
+        }
+    }
+    class Aa extends React.Component{
+        constructor(props){
+            super(props);
+            this.state={
+                num:100
+            }
+        }
+        add(num){
+            this.setState({
+                num:this.state.num+10
+            });
+        }
+        render(){
+            return(
+                <div>
+                    <span>
+                        {this.props.name}{this.state.num}
+                        <button onClick={
+                            ()=>{
+                                this.props.myClick();
+                                this.add();
+                            }
+                        }>调兵</button>
+                    </span>
+                </div>
+
+            )
+        }
+
+    }
+    class Bb extends React.Component{
+        constructor(props){
+            super(props);
+            this.state={
+                num2:100
+            }
+        }
+        add(num2){
+            this.setState({
+                num2:this.state.num2+20
+            });
+        }
+        render(){
+            return(
+
+                <div>
+                     <span>
+                        {this.props.name}{this.state.num2}
+                         <button onClick={
+                             ()=>{
+                                 this.props.myClick();
+                                 this.add();
+                             }
+                         }>调兵</button>
+
+                     </span>
+                </div>
+
+            )
+        }
+
+    }
+    ReactDOM.render(
+       <Sum></Sum>,
+        document.getElementById('root')
+    );
+
+
+
+</script>
+
+
+</body>
+</html>

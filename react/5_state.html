@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="root">
+
+</div>
+<script src="react.development.js"></script>
+<script src="react-dom.development.js"></script>
+<script src="browser.min.js"></script>
+<script type="text/babel">
+    // 有状态组件
+    class Welcome extends React.Component{
+        constructor(props){
+            super(props);
+            this.state = {
+                count:0
+            }
+        }
+        add(num){
+            console.log(num,event)
+            // this.setState({
+            //     count:this.state.count+2//可以+2，加几都行
+            //     // count:++this.state.count在前面++之后再赋值，在后面++的话是先赋值了之后再加，所以没有反应
+            //
+            // });
+
+            // this.state.count = 2; 不好使  必须使用setState()
+            // this.setState({
+            //     count:this.state.count+2
+            // });
+            // console.log(this.refs.h);
+            // event.target.style.background = "red";
+        }
+        render(){
+            return (
+                <div>
+                    <button onClick={this.add.bind(this,1)} ref="btn">click</button>
+                    <h1 ref="h">{this.props.name} {this.state.count}</h1>
+
+                </div>
+
+            )
+        }
+
+    }
+    ReactDOM.render(
+
+        <Welcome name="wei">123</Welcome>,
+        document.getElementById('root')
+    );
+
+
+
+</script>
+
+</body>
+</html>
