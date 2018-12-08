@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>朱琳BLOG</title>
+    <script src="js/jquery.min.js" ></script>
+    <script src="js/comm.js" ></script>
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="logo">朱琳个人博客</div>
+    <div class="top-nav">
+        <h2 id="mnavh"><span class="navicon"></span></h2>
+        <ul id="nav">
+            <li><a href="zlindex.html">网站首页</a></li>
+            <li><a href="zllist.html">个人博客日记</a></li>
+            <li><a href="/2">前端心得</a></li>
+            <li><a href="/3">我的练习</a></li>
+            <li><a href="/4">简单算法</a></li>
+            <li><a href="/5">学习博客</a></li>
+            <li><a href="/5">关于我</a></li>
+            <li><a href="/5">留言</a></li>
+        </ul>
+    </div>
+    <div class="search">
+        <form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+            <input name="keyboard" id="keyboard" class="input_text" value="搜索你喜欢的" style="color: rgb(153, 153, 153);" onfocus="if(value=='搜索你喜欢的'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='搜索你喜欢的'}" type="text">
+            <input name="show" value="title" type="hidden">
+            <input name="tempid" value="1" type="hidden">
+            <input name="tbname" value="news" type="hidden">
+            <input name="Submit" class="input_submit" value="" type="submit">
+        </form>
+    </div>
+</header>
+<aside class="side">
+    <div class="about"> <i><a href="/"><img src="images/avatar.jpg"></a></i>
+        <p>大三在读软件狗，目前学习前端，了解vue和react，以后希望可以把了解改成精通。</p>
+    </div>
+    <div class="weixin"> <img src="images/20180925152523.jpg">
+        <p>欢迎加好友讨论 么么哒！❤</p>
+    </div>
+</aside>
+<main>
+    <div class="main-content">
+        <div class="welcome"> 您好，欢迎您访问我的个人博客（づ￣3￣）づ╭❤～！ </div>
+        <div class="picbox">
+            <h2 class="pictitle"><a href="/">小吐槽</a></h2>
+            <!--box begin-->
+            <div class="Box_con"> <span class="btnl btn" id="btnl"></span> <span class="btnr btn" id="btnr"></span>
+                <div class="conbox" id="BoxUl">
+                    <ul>
+                        <li class="cur"><a href="/"><img src="images/dog.jpg" alt=""/>
+                            <p>vue又要更新了敲里吗1</p>
+                        </a> </li>
+                        <li class="cur"><a href="/"><img src="images/dog.jpg" alt=""/>
+                            <p>vue又要更新了敲里吗2</p>
+                        </a> </li>
+                        <li class="cur"><a href="/"><img src="images/dog.jpg" alt=""/>
+                            <p>vue又要更新了敲里吗3</p>
+                         </a> </li>
+                        <li class="cur"><a href="/"><img src="images/dog.jpg" alt=""/>
+                            <p>vue又要更新了敲里吗4</p>
+                        </a> </li>
+                        <li class="cur"><a href="/"><img src="images/dog.jpg" alt=""/>
+                            <p>vue又要更新了敲里吗5</p>
+                         </a> </li>
+                        <li class="cur"><a href="/"><img src="images/dog.jpg" alt=""/>
+                            <p>vue又要更新了敲里吗6</p>
+                        </a> </li>
+                        <li class="cur"><a href="/"><img src="images/dog.jpg" alt=""/>
+                            <p>vue又要更新了敲里吗7</p>
+                        </a> </li>
+                        <li class="cur"><a href="/"><img src="images/dog.jpg" alt=""/>
+                            <p>vue又要更新了敲里吗8</p>
+                        </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <!--box end-->
+        </div>
+        <div class="newsbox">
+            <section>
+                <div class="news">
+                    <h2 class="newstitle"><span><a href="/">更多</a></span><b>个人博客日记</b></h2>
+                    <ul>
+                        <li><a href="/"><span>08-30</span>猫眼电影【借鉴】</a></li>
+                        <li><a href="/"><span>08-30</span>美团【借鉴】</a></li>
+                        <li><a href="/"><span>08-30</span>天猫界面</a></li>
+                        <li><a href="/"><span>08-30</span>11</a></li>
+                        <li><a href="/"><span>08-30</span>22</a></li>
+                        <li><a href="/"><span>08-30</span>33</a></li>
+                        <li><a href="/"><span>08-30</span>44</a></li>
+                        <li><a href="/"><span>08-30</span>55</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="news">
+                    <h2 class="newstitle"><span><a href="/">更多</a></span><b>设计思维</b></h2>
+                    <ul>
+                        <li><a href="/"><span>08-30</span>猫眼电影【借鉴】</a></li>
+                        <li><a href="/"><span>08-30</span>美团【借鉴】</a></li>
+                        <li><a href="/"><span>08-30</span>天猫界面</a></li>
+                        <li><a href="/"><span>08-30</span>11</a></li>
+                        <li><a href="/"><span>08-30</span>22</a></li>
+                        <li><a href="/"><span>08-30</span>33</a></li>
+                        <li><a href="/"><span>08-30</span>44</a></li>
+                        <li><a href="/"><span>08-30</span>55</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="news">
+                    <h2 class="newstitle"><span><a href="/">更多</a></span><b>结构设计</b></h2>
+                    <ul>
+                        <li><a href="/"><span>08-30</span>猫眼电影【借鉴】</a></li>
+                        <li><a href="/"><span>08-30</span>美团【借鉴】</a></li>
+                        <li><a href="/"><span>08-30</span>天猫界面</a></li>
+                        <li><a href="/"><span>08-30</span>11</a></li>
+                        <li><a href="/"><span>08-30</span>22</a></li>
+                        <li><a href="/"><span>08-30</span>33</a></li>
+                        <li><a href="/"><span>08-30</span>44</a></li>
+                        <li><a href="/"><span>08-30</span>55</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="news">
+                    <h2 class="newstitle"><span><a href="/">更多</a></span><b>设计素材</b></h2>
+                    <ul>
+                        <li><a href="/"><span>08-30</span>猫眼电影【借鉴】</a></li>
+                        <li><a href="/"><span>08-30</span>美团【借鉴】</a></li>
+                        <li><a href="/"><span>08-30</span>天猫界面</a></li>
+                        <li><a href="/"><span>08-30</span>11</a></li>
+                        <li><a href="/"><span>08-30</span>22</a></li>
+                        <li><a href="/"><span>08-30</span>33</a></li>
+                        <li><a href="/"><span>08-30</span>44</a></li>
+                        <li><a href="/"><span>08-30</span>55</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="news">
+                    <h2 class="newstitle"><span><a href="/">更多</a></span><b>设计教程</b></h2>
+                    <ul>
+                        <li><a href="/"><span>08-30</span>猫眼电影【借鉴】</a></li>
+                        <li><a href="/"><span>08-30</span>美团【借鉴】</a></li>
+                        <li><a href="/"><span>08-30</span>天猫界面</a></li>
+                        <li><a href="/"><span>08-30</span>11</a></li>
+                        <li><a href="/"><span>08-30</span>22</a></li>
+                        <li><a href="/"><span>08-30</span>33</a></li>
+                        <li><a href="/"><span>08-30</span>44</a></li>
+                        <li><a href="/"><span>08-30</span>55</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="news">
+                    <h2 class="newstitle"><span><a href="/">更多</a></span><b>设计心得</b></h2>
+                    <ul>
+                        <li><a href="/"><span>08-30</span>猫眼电影【借鉴】</a></li>
+                        <li><a href="/"><span>08-30</span>美团【借鉴】</a></li>
+                        <li><a href="/"><span>08-30</span>天猫界面</a></li>
+                        <li><a href="/"><span>08-30</span>11</a></li>
+                        <li><a href="/"><span>08-30</span>22</a></li>
+                        <li><a href="/"><span>08-30</span>33</a></li>
+                        <li><a href="/"><span>08-30</span>44</a></li>
+                        <li><a href="/"><span>08-30</span>55</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="blank"></div>
+        <div class="links">
+            <h2 class="linktitle">合作伙伴</h2>
+            <ul class="link-pic">
+                <li><a href="/"><img src="images/yqlj.png"></a></li>
+                <li><a href="/"><img src="images/yqlj.png"></a></li>
+                <li><a href="/"><img src="images/yqlj.png"></a></li>
+                <li><a href="/"><img src="images/yqlj.png"></a></li>
+                <li><a href="/"><img src="images/yqlj.png"></a></li>
+            </ul>
+            <ul class="link-text">
+                <li><a href="http://www.baidu.com"><strong>欢迎一起学习</strong></a></li>
+
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2018  Inc. AllRights Reserved. Design by <a href="/">朱琳个人博客</a> 黑ICP备11002373号-1</p>
+        </div>
+    </div>
+</main>
+<a href="#" class="cd-top cd-is-visible">Top</a>
+
+</body>
+</html>
