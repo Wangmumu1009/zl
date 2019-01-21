@@ -85,7 +85,8 @@
         var now = new Date();
         var miao = now.getSeconds();
         var fen = now.getMinutes() + miao / 60;
-        var shi = now.getHours() + fen / 60;//如果不加fen/60，就在后面写shi*30+fen/60*30deg
+        var shi = now.getHours() + fen / 60;//如果不加fen/60的话，就在后面写shi*30+fen/60*30deg，两种方法
+
         oMiao.style.transform = "rotate("+ miao * 6 +"deg)";
         oFen.style.transform = "rotate("+ fen * 6 +"deg)";
         oShi.style.transform = "rotate("+ shi * 30 +"deg)";
