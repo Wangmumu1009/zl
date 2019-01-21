@@ -1,0 +1,97 @@
+<!DOCTYPE html><!--1.21改进：尽量不用id操作css，因为id一般留给js操作，用class-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style:none;
+        }
+        .dial li{
+            width: 2px;
+            height: 6px;
+            background: black;
+            position: absolute;
+            top: 0;
+            left: 100px;
+            transform-origin: 0 100px;
+        }
+        .dial li:nth-child(5n+1){
+            height: 10px;
+        }
+        .totalClock{
+            width: 200px;
+            height: 200px;
+            margin: 200px auto;/*上下 自动*/
+            border: 1px solid gray;
+            border-radius: 50%;/*圆角效果，50%时候就是圆形*/
+            position: relative;
+        }
+        .shi{
+            width: 4px;
+            height: 40px;
+            background: black;
+            position: absolute;
+            left: 98px;
+            top:60px;
+        }
+        .fen{
+            width: 4px;
+            height: 60px;
+            background: #CCCCCC;
+            position: absolute;
+            left: 98px;
+            top: 40px;
+        }
+        .miao{
+            width: 2px;
+            height: 80px;
+            background: pink;
+            position: absolute;
+            left: 99px;
+            top: 20px;
+        }
+        .shi,.fen,.miao{
+            transform-origin: bottom;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="totalClock">
+    <ul class="dial" id="dial"></ul>
+    <div class="shi" id="shi"></div>
+    <div class="fen" id="fen"></div>
+    <div class="miao" id="miao"></div>
+</div>
+<script>
+    var odial = document.getElementById("dial");
+    var oShi = document.getElementById("shi");
+    var oFen = document.getElementById("fen");
+    var oMiao = document.getElementById("miao");
+    var lis='';
+    for (var i=0;i<60;i++){
+        lis += "<li style='transform:rotate("+6*i+"deg);'></li>";
+    }
+    odial.innerHTML=lis;
+    run();
+    setInterval(run,1000);
+    function run() {
+        var now = new Date();
+        var miao = now.getSeconds();
+        var fen = now.getMinutes() + miao / 60;
+        var shi = now.getHours() + fen / 60;//如果不加fen/60，就在后面写shi*30+fen/60*30deg
+        oMiao.style.transform = "rotate("+ miao * 6 +"deg)";
+        oFen.style.transform = "rotate("+ fen * 6 +"deg)";
+        oShi.style.transform = "rotate("+ shi * 30 +"deg)";
+    }
+
+
+</script>
+</body>
+</html>
