@@ -1,0 +1,53 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    background: #000000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#protectBall {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: aliceblue;
+}
+
+.interface-bg {
+    margin: 0 auto;
+}
+
+.info{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffffff;
+    justify-content: space-around;
+}
+
+.explain{
+    text-align: center;
+    padding: 1rem;
+    color: #ffffff;
+}
+
+#bgStage {
+    position: absolute;
+    margin: 0 auto;
+    background: radial-gradient(#004141, #000000);
+    border: solid 0.3rem #333333;
+}
+
+#ballStage {
+    position: relative;
+    border: solid 0.3rem #333333;
+}
