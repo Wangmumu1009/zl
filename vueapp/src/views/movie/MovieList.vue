@@ -5,7 +5,7 @@
         </div>
         <div class="movie-desc">
             <h3>{{movie.title}}</h3>
-            <p>观众评：<span class="aver">{{movie.rating.average}}</span></p>
+            <p>观众评分：<span class="aver">{{movie.rating.average}}</span></p>
             主演：<span v-for="actor in movie.casts">{{actor.name}},</span>
         </div>
     </li>

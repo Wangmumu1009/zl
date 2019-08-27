@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76cba3d4-1bd8-412d-ac90-73462c46bac3" name="Default" comment="722">
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/developing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/dojo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/flash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/fork.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/fruit/apple-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/fruit/apple-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/fruit/apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/fruit/banana-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/fruit/banana-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/fruit/banana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/fruit/basaha-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/fruit/basaha-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/fruit/basaha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/fruit/boom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/fruit/peach-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/fruit/peach-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/fruit/peach.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/fruit/sandia-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/fruit/sandia-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/fruit/sandia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/game-over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/home-desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/home-mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/lose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/new-game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/ninja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/quit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/score.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/smoke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/xf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/xx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/xxf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/xxx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/images/xxxf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/scripts/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/sound/boom.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/sound/boom.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/sound/menu.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/sound/menu.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/sound/over.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/sound/over.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/sound/splatter.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/sound/splatter.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/sound/start.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/sound/start.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/sound/throw.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html5-fruit-ninja/sound/throw.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_home/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webhomework" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/扫雷.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/fastclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/rem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/touch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/img/thumbs/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/web相册/sort.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端/zepto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework.html" beforeDir="false" afterPath="$PROJECT_DIR$/homework.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueapp/public/movie.json" beforeDir="false" afterPath="$PROJECT_DIR$/vueapp/public/movie.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueapp/src/views/movie/MovieList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueapp/src/views/movie/MovieList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/移动端/web相册/照片墙.html" beforeDir="false" afterPath="$PROJECT_DIR$/移动端/web相册/照片墙.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="zl" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="XHTML File" />
+        <option value="Vue Single File Component" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#div99</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/react-app/src/asset/css/Container.css" />
+        <option value="$PROJECT_DIR$/react-app/src/index.js" />
+        <option value="$PROJECT_DIR$/react-app/src/asset/css/product.css" />
+        <option value="$PROJECT_DIR$/react-app/src/components/Home.js" />
+        <option value="$PROJECT_DIR$/react-app/src/components/Product.js" />
+        <option value="$PROJECT_DIR$/react-app/src/components/App.js" />
+        <option value="$PROJECT_DIR$/react-app/src/components/detail/DetailImg.js" />
+        <option value="$PROJECT_DIR$/react-app/src/components/detail/comment.js" />
+        <option value="$PROJECT_DIR$/react-app/src/components/Detail.js" />
+        <option value="$PROJECT_DIR$/zlFrist/yemian.html" />
+        <option value="$PROJECT_DIR$/zlBlog/css/index.css" />
+        <option value="$PROJECT_DIR$/zlBlog/list.html" />
+        <option value="$USER_HOME$/Desktop/个人博客模板《tree》/index.html" />
+        <option value="$PROJECT_DIR$/zlBlog/info.html" />
+        <option value="$PROJECT_DIR$/zlBlog/zlinfo.html" />
+        <option value="$PROJECT_DIR$/zlBlog/zllist.html" />
+        <option value="$PROJECT_DIR$/zlBlog/js/comm.js" />
+        <option value="$PROJECT_DIR$/vue.news-master/src/store/MenuStore.js" />
+        <option value="$PROJECT_DIR$/vue.news-master/src/store/PointStore.js" />
+        <option value="$PROJECT_DIR$/vue.news-master/src/components/public/Foot.vue" />
+        <option value="$PROJECT_DIR$/vue.news-master/src/store/SelectStore.js" />
+        <option value="$PROJECT_DIR$/zhihudaily/proxy.js" />
+        <option value="$PROJECT_DIR$/zhihudaily/main.js" />
+        <option value="$PROJECT_DIR$/zhihudaily/libs/util.js" />
+        <option value="$PROJECT_DIR$/zhihudaily/app.vue" />
+        <option value="$PROJECT_DIR$/zhihudaily/components/item.vue" />
+        <option value="$PROJECT_DIR$/zhihudaily/style.css" />
+        <option value="$PROJECT_DIR$/zlshopping/router.js" />
+        <option value="$PROJECT_DIR$/zlshopping/webpack.config.js" />
+        <option value="$PROJECT_DIR$/jquery-1.12.4.js" />
+        <option value="$PROJECT_DIR$/zlshopping/app.vue" />
+        <option value="$PROJECT_DIR$/zlshopping/style.css" />
+        <option value="$PROJECT_DIR$/zlshopping/main.js" />
+        <option value="$PROJECT_DIR$/DOM/DEMO.html" />
+        <option value="$PROJECT_DIR$/js/1_helloworld.html" />
+        <option value="$PROJECT_DIR$/zlBlog/zlindex.html" />
+        <option value="$PROJECT_DIR$/css钟表.html" />
+        <option value="$PROJECT_DIR$/review.html" />
+        <option value="$PROJECT_DIR$/homework.html" />
+        <option value="$PROJECT_DIR$/移动端/web相册/照片墙.html" />
+        <option value="$PROJECT_DIR$/移动端/web相册/sort.html" />
+        <option value="$PROJECT_DIR$/移动端/web相册/旋转照片墙.html" />
+        <option value="$PROJECT_DIR$/vueapp/src/views/movie/MovieList.vue" />
+        <option value="$PROJECT_DIR$/vueapp/public/movie.json" />
+        <option value="$PROJECT_DIR$/html5-fruit-ninja/index.html" />
+        <option value="$PROJECT_DIR$/web_home/web.html" />
+        <option value="$PROJECT_DIR$/web_home/js/vue.js" />
+        <option value="$PROJECT_DIR$/web_home/css/css.css" />
+        <option value="$PROJECT_DIR$/web_home/js/jquery.js" />
+        <option value="$PROJECT_DIR$/web_home/js/js.js" />
+        <option value="$PROJECT_DIR$/扫雷.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/daily/node_modules" />
+    <handled-path value="$PROJECT_DIR$/es6/node_modules" />
+    <handled-path value="$PROJECT_DIR$/my-appp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/react-app/node_modules" />
+    <handled-path value="$PROJECT_DIR$/shopping/node_modules" />
+    <handled-path value="$PROJECT_DIR$/vueapp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/vuecli3/node_modules" />
+    <handled-path value="$PROJECT_DIR$/vuecli3/vueapp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/webpack/node_modules" />
+    <handled-path value="$PROJECT_DIR$/zlFvue/node_modules" />
+    <handled-path value="$PROJECT_DIR$/zlshopping/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/daily/package.json" />
+      <path value="$PROJECT_DIR$/es6/package.json" />
+      <path value="$PROJECT_DIR$/my-appp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/axios/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/follow-redirects/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/form-data/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/history/node_modules/warning/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/history/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/hoist-non-react-statics/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/invariant/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/js-tokens/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lodash-es/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loose-envify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/prop-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/psl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/react-redux/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/react-router-dom/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/react-router/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/redux/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/resolve-pathname/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/symbol-observable/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/value-equal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/warning/package.json" />
+      <path value="$PROJECT_DIR$/react-app/package.json" />
+      <path value="$PROJECT_DIR$/shopping/package.json" />
+      <path value="$PROJECT_DIR$/vueapp/package.json" />
+      <path value="$PROJECT_DIR$/vuecli3/package.json" />
+      <path value="$PROJECT_DIR$/vuecli3/vueapp/package.json" />
+      <path value="$PROJECT_DIR$/webpack/package.json" />
+      <path value="$PROJECT_DIR$/zlFvue/package.json" />
+      <path value="$PROJECT_DIR$/zlshopping/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1371" />
+    <option name="y" value="73" />
+    <option name="width" value="1296" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zl" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="#div99&#9;null&#9;null&#10;#div1&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/my-appp/src/App.css" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zl" />
+      <recent name="D:\zl\移动端" />
+      <recent name="D:\zl\移动端\web相册" />
+      <recent name="D:\zl\zlshopping" />
+      <recent name="D:\zl\zlBlog\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\zl\移动端\web相册\img" />
+      <recent name="D:\zl\webpack\src" />
+      <recent name="D:\zl\ES6" />
+      <recent name="D:\zl\jQuery" />
+      <recent name="D:\zl\jQuery\jQ练习\1表单\文本框得到失去焦点" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.leetcode.js">
+    <configuration name="右键.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/zl/DOM/右键.html" />
+    <configuration name="demo1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="demo1.js" working-dir="$USER_HOME$/Documents/WeChat Files/ZL_971009/Files/jQuery练习/1_表单/1-文本框得到失去焦点" />
+    <configuration name="leetcode.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="leetcode.js" working-dir="$PROJECT_DIR$" />
+    <list>
+      <item itemvalue="JavaScript Debug.右键.html" />
+      <item itemvalue="Node.js.demo1.js" />
+      <item itemvalue="Node.js.leetcode.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.leetcode.js" />
+        <item itemvalue="Node.js.demo1.js" />
+        <item itemvalue="JavaScript Debug.右键.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76cba3d4-1bd8-412d-ac90-73462c46bac3" name="Default" comment="" />
+      <created>1532241606247</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532241606247</updated>
+      <workItem from="1532241608114" duration="2351000" />
+      <workItem from="1532246119257" duration="8656000" />
+      <workItem from="1532307692218" duration="594000" />
+      <workItem from="1532310345463" duration="22388000" />
+      <workItem from="1532395610595" duration="18063000" />
+      <workItem from="1532480998840" duration="31966000" />
+      <workItem from="1532826296495" duration="10280000" />
+      <workItem from="1532925979903" duration="27222000" />
+      <workItem from="1533085565136" duration="14822000" />
+      <workItem from="1533111056559" duration="29929000" />
+      <workItem from="1533524556238" duration="5878000" />
+      <workItem from="1533531784365" duration="2469000" />
+      <workItem from="1533534775512" duration="1048000" />
+      <workItem from="1533536304957" duration="6447000" />
+      <workItem from="1533604765664" duration="27654000" />
+      <workItem from="1533693415376" duration="1687000" />
+      <workItem from="1533695282420" duration="36455000" />
+      <workItem from="1533882392018" duration="27849000" />
+      <workItem from="1534210838607" duration="7185000" />
+      <workItem from="1534221212593" duration="793000" />
+      <workItem from="1534222167149" duration="9045000" />
+      <workItem from="1534295145461" duration="15897000" />
+      <workItem from="1534385692458" duration="29477000" />
+      <workItem from="1534640922618" duration="20819000" />
+      <workItem from="1534728228291" duration="2424000" />
+      <workItem from="1535456183643" duration="516000" />
+      <workItem from="1535461850245" duration="1640000" />
+      <workItem from="1535548832300" duration="3918000" />
+      <workItem from="1535631321410" duration="580000" />
+      <workItem from="1535787046392" duration="3528000" />
+      <workItem from="1535971886544" duration="5401000" />
+      <workItem from="1536325976509" duration="1706000" />
+      <workItem from="1536369186403" duration="32706000" />
+      <workItem from="1536745753919" duration="10893000" />
+      <workItem from="1536973534400" duration="16893000" />
+      <workItem from="1537060896930" duration="25467000" />
+      <workItem from="1537271884294" duration="485000" />
+      <workItem from="1537517413266" duration="4795000" />
+      <workItem from="1537578282252" duration="5710000" />
+      <workItem from="1537593560687" duration="2156000" />
+      <workItem from="1537596506570" duration="8977000" />
+      <workItem from="1537618498252" duration="5241000" />
+      <workItem from="1537684631728" duration="10045000" />
+      <workItem from="1537791197943" duration="5273000" />
+      <workItem from="1537860054244" duration="11728000" />
+      <workItem from="1537876822950" duration="214000" />
+      <workItem from="1537877168023" duration="458000" />
+      <workItem from="1537879332740" duration="565000" />
+      <workItem from="1537881424306" duration="2100000" />
+      <workItem from="1537948205659" duration="1772000" />
+      <workItem from="1537950709315" duration="14761000" />
+      <workItem from="1538041542437" duration="6532000" />
+      <workItem from="1538049164884" duration="1881000" />
+      <workItem from="1539512598049" duration="402000" />
+      <workItem from="1539763720280" duration="2036000" />
+      <workItem from="1539782363926" duration="1807000" />
+      <workItem from="1539830316712" duration="102000" />
+      <workItem from="1539831158253" duration="185000" />
+      <workItem from="1544095889584" duration="7242000" />
+      <workItem from="1544270595483" duration="625000" />
+      <workItem from="1544271910533" duration="2508000" />
+      <workItem from="1544274648440" duration="710000" />
+      <workItem from="1544408971414" duration="327000" />
+      <workItem from="1544409363429" duration="615000" />
+      <workItem from="1544409994485" duration="6000" />
+      <workItem from="1548047689798" duration="16567000" />
+      <workItem from="1548124086238" duration="959000" />
+      <workItem from="1551015468977" duration="1371000" />
+      <workItem from="1551870467941" duration="16888000" />
+      <workItem from="1552210759349" duration="3964000" />
+      <workItem from="1552299827286" duration="6577000" />
+      <workItem from="1552528772879" duration="822000" />
+      <workItem from="1563201286997" duration="590000" />
+    </task>
+    <task id="LOCAL-00005" summary="722">
+      <created>1532266144263</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1532266144263</updated>
+    </task>
+    <task id="LOCAL-00006" summary="722">
+      <created>1532321542173</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1532321542173</updated>
+    </task>
+    <task id="LOCAL-00007" summary="722">
+      <created>1532358038673</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1532358038673</updated>
+    </task>
+    <task id="LOCAL-00008" summary="722">
+      <created>1532411644402</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1532411644402</updated>
+    </task>
+    <task id="LOCAL-00009" summary="722">
+      <created>1532417696323</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1532417696323</updated>
+    </task>
+    <task id="LOCAL-00010" summary="722">
+      <created>1532501384279</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1532501384279</updated>
+    </task>
+    <task id="LOCAL-00011" summary="722">
+      <created>1532504874819</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1532504874819</updated>
+    </task>
+    <task id="LOCAL-00012" summary="722">
+      <created>1532506392685</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1532506392685</updated>
+    </task>
+    <task id="LOCAL-00013" summary="722">
+      <created>1532671813298</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1532671813298</updated>
+    </task>
+    <task id="LOCAL-00014" summary="722">
+      <created>1532828641495</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1532828641495</updated>
+    </task>
+    <task id="LOCAL-00015" summary="722">
+      <created>1532844990792</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1532844990806</updated>
+    </task>
+    <task id="LOCAL-00016" summary="722">
+      <created>1532845104119</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1532845104119</updated>
+    </task>
+    <task id="LOCAL-00017" summary="722">
+      <created>1533102959192</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1533102959192</updated>
+    </task>
+    <task id="LOCAL-00018" summary="722">
+      <created>1533103095205</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1533103095205</updated>
+    </task>
+    <task id="LOCAL-00019" summary="722">
+      <created>1533189835458</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1533189835458</updated>
+    </task>
+    <task id="LOCAL-00020" summary="722">
+      <created>1533282776166</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1533282776166</updated>
+    </task>
+    <task id="LOCAL-00021" summary="722">
+      <created>1533437268692</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1533437268692</updated>
+    </task>
+    <task id="LOCAL-00022" summary="722">
+      <created>1533452118647</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1533452118647</updated>
+    </task>
+    <task id="LOCAL-00023" summary="722">
+      <created>1533457866502</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1533457866502</updated>
+    </task>
+    <task id="LOCAL-00024" summary="722">
+      <created>1533531010277</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1533531010277</updated>
+    </task>
+    <task id="LOCAL-00025" summary="722">
+      <created>1533539648962</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1533539648963</updated>
+    </task>
+    <task id="LOCAL-00026" summary="722">
+      <created>1533780836738</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1533780836738</updated>
+    </task>
+    <task id="LOCAL-00027" summary="722">
+      <created>1533782349426</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1533782349427</updated>
+    </task>
+    <task id="LOCAL-00028" summary="722">
+      <created>1533785307561</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1533785307561</updated>
+    </task>
+    <task id="LOCAL-00029" summary="722">
+      <created>1533785872252</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1533785872252</updated>
+    </task>
+    <task id="LOCAL-00030" summary="722">
+      <created>1533795580228</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1533795580228</updated>
+    </task>
+    <task id="LOCAL-00031" summary="722">
+      <created>1533797986863</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1533797986863</updated>
+    </task>
+    <task id="LOCAL-00032" summary="722">
+      <created>1533799533273</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1533799533273</updated>
+    </task>
+    <task id="LOCAL-00033" summary="722">
+      <created>1533870162481</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1533870162481</updated>
+    </task>
+    <task id="LOCAL-00034" summary="722">
+      <created>1533880494555</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1533880494556</updated>
+    </task>
+    <task id="LOCAL-00035" summary="722">
+      <created>1534159678366</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1534159678366</updated>
+    </task>
+    <task id="LOCAL-00036" summary="722">
+      <created>1534491486814</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1534491486814</updated>
+    </task>
+    <task id="LOCAL-00037" summary="722">
+      <created>1534664723795</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1534664723795</updated>
+    </task>
+    <task id="LOCAL-00038" summary="722">
+      <created>1536471991826</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1536471991826</updated>
+    </task>
+    <task id="LOCAL-00039" summary="722">
+      <created>1536475217610</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1536475217610</updated>
+    </task>
+    <task id="LOCAL-00040" summary="722">
+      <created>1537682739066</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1537682739066</updated>
+    </task>
+    <task id="LOCAL-00041" summary="722">
+      <created>1537682791418</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1537682791418</updated>
+    </task>
+    <task id="LOCAL-00042" summary="722">
+      <created>1537682826604</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1537682826604</updated>
+    </task>
+    <task id="LOCAL-00043" summary="review">
+      <created>1544101581440</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1544101581440</updated>
+    </task>
+    <task id="LOCAL-00044" summary="722">
+      <created>1544102829484</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1544102829484</updated>
+    </task>
+    <task id="LOCAL-00045" summary="rr">
+      <created>1544103811045</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1544103811045</updated>
+    </task>
+    <task id="LOCAL-00046" summary="初代">
+      <created>1544104124072</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1544104124072</updated>
+    </task>
+    <task id="LOCAL-00047" summary="722">
+      <created>1544272739741</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1544272739741</updated>
+    </task>
+    <task id="LOCAL-00048" summary="博客练习">
+      <created>1544273977554</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1544273977554</updated>
+    </task>
+    <task id="LOCAL-00049" summary="复习css动画时进行的改进">
+      <created>1548068295513</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1548068295514</updated>
+    </task>
+    <task id="LOCAL-00050" summary="复习css动画时进行的改进">
+      <created>1548068937606</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1548068937607</updated>
+    </task>
+    <task id="LOCAL-00051" summary="项目中图片功能部分改进">
+      <created>1551016611370</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1551016611370</updated>
+    </task>
+    <task id="LOCAL-00052" summary="基于react的每日美食推荐软件">
+      <created>1551929051955</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1551929051956</updated>
+    </task>
+    <task id="LOCAL-00053" summary="基于vue+h5+jq的网页小游戏">
+      <created>1551939323728</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1551939323728</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="611642000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1371" y="73" width="1296" height="788" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13036565" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50183153" side_tool="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3289256" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.17383513" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.0778626" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32936978" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3289256" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4981685" weight="0.30782312" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="review" />
+    <MESSAGE value="rr" />
+    <MESSAGE value="初代" />
+    <MESSAGE value="722" />
+    <MESSAGE value="博客练习" />
+    <MESSAGE value="复习css动画时进行的改进" />
+    <MESSAGE value="项目中图片功能部分改进" />
+    <MESSAGE value="基于react的每日美食推荐软件" />
+    <MESSAGE value="基于vue+h5+jq的网页小游戏" />
+    <option name="LAST_COMMIT_MESSAGE" value="基于vue+h5+jq的网页小游戏" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/vuecli3/src/main.js</url>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="37" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/扫雷.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="66" lean-forward="true" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/扫雷.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2646">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/扫雷.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_home/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_home/web.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_home/js/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6110">
+          <caret line="235" column="7" lean-forward="true" selection-start-line="235" selection-start-column="7" selection-end-line="235" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_home/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12532">
+          <caret line="482" column="23" lean-forward="true" selection-start-line="482" selection-start-column="23" selection-end-line="482" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zlshopping/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/jquery-1.12.4.js" />
+    <entry file="file://$PROJECT_DIR$/DOM/拖拽.html" />
+    <entry file="file://$PROJECT_DIR$/zlshopping/main.js" />
+    <entry file="file://$PROJECT_DIR$/js/1_helloworld.html" />
+    <entry file="file://$PROJECT_DIR$/zlshopping/app.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOM/DEMO.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zlBlog/zlindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zlBlog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css钟表.html" />
+    <entry file="file://$PROJECT_DIR$/722.patch" />
+    <entry file="file://$PROJECT_DIR$/移动端/touch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动端/web相册/sort.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2366">
+          <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动端/web相册/照片墙.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动端/web相册/旋转照片墙.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2860">
+          <caret line="137" column="35" selection-start-line="137" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueapp/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueapp/src/assets/css/vue-swipe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-624" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueapp/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueapp/src/views/music/Music.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueapp/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-696">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueapp/src/components/CFooter.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueapp/src/views/movie/MovieHome.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1586">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueapp/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueapp/public/movie.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13520">
+          <caret column="31163" selection-start-column="31079" selection-end-column="31163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueapp/src/views/movie/Movie.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueapp/src/views/movie/MovieDetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueapp/src/views/movie/MovieList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5-fruit-ninja/scripts/all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueapp/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-973">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5-fruit-ninja/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-780" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meituan/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_home/web.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_home/js/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5902">
+          <caret line="235" column="7" selection-start-line="235" selection-start-column="7" selection-end-line="235" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_home/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="482" column="23" selection-start-line="482" selection-start-column="23" selection-end-line="482" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_home/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/扫雷.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

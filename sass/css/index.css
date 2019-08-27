@@ -1,0 +1,25 @@
+#div1 {
+  background: #f00;
+  color: #f00; }
+
+#div2 {
+  font-size: 16px; }
+  #div2 a {
+    width: 20px; }
+    #div2 a:hover {
+      color: red; }
+    #div2 a-test {
+      height: 10px; }
+
+#div3 {
+  background-image: url("a.jpg");
+  background-size: cover;
+  background-position: left,center;
+  border-top-color: #f00;
+  border-top-style: solid;
+  border-top-width: 30px; }
+
+#test {
+  background: url(""); }
+
+/*# sourceMappingURL=index.css.map */
